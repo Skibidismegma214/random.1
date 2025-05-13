@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cn7x6lls0thi3" path="res://nivell_1.gd" id="1_l8fem"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D2" type="Node2D"]
 script = ExtResource("1_l8fem")
 
 [node name="Label" type="Label" parent="."]

@@ -1,24 +1,24 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1747122257
-alienYellow.png::CompressedTexture2D::5555296162350623019::1747121251::1747121252::1::::<><><>0<>0<>f72e32ed38c3b6fcc300da58411ba0d0<>res://.godot/imported/alienYellow.png-9e1e3117def341fb1ed35d3f78552b65.ctex::
-alienYellow_jump.png::CompressedTexture2D::2187944094736900134::1747121377::1747121377::1::::<><><>0<>0<>26a067a5af325415f3c12d069554e437<>res://.godot/imported/alienYellow_jump.png-8b28d1001100e2304a36b785d1c48c3a.ctex::
-alienYellow_walk1.png::CompressedTexture2D::4004326118962215058::1747121418::1747121418::1::::<><><>0<>0<>847e3d9bcf450cfd09af3de9b7a4b3ff<>res://.godot/imported/alienYellow_walk1.png-d1435d8f16a15447f0aeeda72eb64d3b.ctex::
-alienYellow_walk21.png::CompressedTexture2D::2274718541092349187::1747122257::1747122257::1::::<><><>0<>0<>ccd71e507c19114076af11ca48749448<>res://.godot/imported/alienYellow_walk21.png-5aa61f5008166f8c98bd1f96f8765a8f.ctex::
-assets-removebg.png::CompressedTexture2D::7749603373223562755::1747121635::1747121636::1::::<><><>0<>0<>144984fb6fa5bbb0fdc8fac11ba722ce<>res://.godot/imported/assets-removebg.png-df972b093f7fa533c286e5f0d15d0ca5.ctex::
+::res://::1747122908
+alienYellow.png::CompressedTexture2D/CompressedTexture2D::5555296162350623019::1747121251::1747121252::1::::<><><>0<>0<>f72e32ed38c3b6fcc300da58411ba0d0<>res://.godot/imported/alienYellow.png-9e1e3117def341fb1ed35d3f78552b65.ctex::
+alienYellow_jump.png::CompressedTexture2D/CompressedTexture2D::2187944094736900134::1747121377::1747121377::1::::<><><>0<>0<>26a067a5af325415f3c12d069554e437<>res://.godot/imported/alienYellow_jump.png-8b28d1001100e2304a36b785d1c48c3a.ctex::
+alienYellow_walk1.png::CompressedTexture2D/CompressedTexture2D::4004326118962215058::1747121418::1747121418::1::::<><><>0<>0<>847e3d9bcf450cfd09af3de9b7a4b3ff<>res://.godot/imported/alienYellow_walk1.png-d1435d8f16a15447f0aeeda72eb64d3b.ctex::
+alienYellow_walk21.png::CompressedTexture2D/CompressedTexture2D::2274718541092349187::1747122321::1747122257::1::::<><><>0<>0<>ccd71e507c19114076af11ca48749448<>res://.godot/imported/alienYellow_walk21.png-5aa61f5008166f8c98bd1f96f8765a8f.ctex::
+assets-removebg.png::CompressedTexture2D/CompressedTexture2D::7749603373223562755::1747121635::1747121636::1::::<><><>0<>0<>144984fb6fa5bbb0fdc8fac11ba722ce<>res://.godot/imported/assets-removebg.png-df972b093f7fa533c286e5f0d15d0ca5.ctex::
 codipersonatje1.gd::GDScript::8557529255536488653::1747120320::0::1::::<>CharacterBody2D<><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::5842793359642730575::1745578233::1745578239::1::::<><><>0<>0<>dbde84e5be08859ea2b13451555d95e0<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-nivell 1.tscn::PackedScene::5687062844698571437::1747120994::0::1::::<><><>0<>0<><>::uid://cn7x6lls0thi3::::res://nivell_1.gd
+nivell 1.tscn::PackedScene::5687062844698571437::1747122799::0::1::::<><><>0<>0<><>::uid://cn7x6lls0thi3::::res://nivell_1.gd
 nivell_1.gd::GDScript/GDScript::5752808868856917744::1746442223::0::1::::<>Node2D<><>0<>0<><>::
 nivell_2.gd::GDScript/GDScript::7413915824324873270::1746444572::0::1::::<>Node2D<><>0<>0<><>::
-nivell_2.tscn::PackedScene::6040270378625904097::1747120994::0::1::::<><><>0<>0<><>::uid://ddvmd0wy58pas::::res://nivell_2.gd
-node_2d.tscn::PackedScene::4968169076397188492::1747121786::0::1::::<><><>0<>0<><>::uid://d6hol072oofl::::res://sheet.png<>uid://cte6b5tqlk3gx::::res://random-shooter/imatges/Captura (38).png<>uid://dt6liyufcr7d6::::res://codipersonatje1.gd<>uid://ni5h5efe50kk::::res://random-shooter/imatges/alienBlue_jump.png<>uid://c3xf30s85ntvb::::res://random-shooter/imatges/alienBlue.png<>uid://b4e23rwm3357l::::res://random-shooter/imatges/alienBlue_jump2.png<>uid://clfa6fcs5k4f4::::res://alienYellow.png<>uid://bxbywwb71u46a::::res://alienYellow_walk1.png
+nivell_2.tscn::PackedScene::6040270378625904097::1747122799::0::1::::<><><>0<>0<><>::uid://ddvmd0wy58pas::::res://nivell_2.gd
+node_2d.tscn::PackedScene::-1::1747122435::0::1::::<><><>0<>0<><>::
 sheet.png::CompressedTexture2D/CompressedTexture2D::275012879221527245::1745579715::1745579715::1::::<><><>0<>0<>e8b45d7f183bd7b16ec503112734b2fc<>res://.godot/imported/sheet.png-b93731627d2f5b1030ad8028f44ebe69.ctex::
-::res://random-shooter/::1747121783
-assets-removebg.png::CompressedTexture2D::2580172154516825159::1747121624::1747121625::1::::<><><>0<>0<>48ec2d6f4e48f83c4b664ccb9e701cac<>res://.godot/imported/assets-removebg.png-8b9af40ca1e02bfc0fff5392e5f4c18a.ctex::
+::res://random-shooter/::1747122799
+assets-removebg.png::CompressedTexture2D/CompressedTexture2D::2580172154516825159::1747121624::1747121625::1::::<><><>0<>0<>48ec2d6f4e48f83c4b664ccb9e701cac<>res://.godot/imported/assets-removebg.png-8b9af40ca1e02bfc0fff5392e5f4c18a.ctex::
 explosion-42132.mp3::AudioStreamMP3/AudioStreamMP3::6950449414666842735::1747119922::1747120085::1::::<><><>0<>0<>52f7106a8c9a4d47e98b3f70f60066ae<>res://.godot/imported/explosion-42132.mp3-13ee6b7dbff64ab643676643ed5b2862.mp3str::
 explosió.gd::GDScript/GDScript::-1::1747119922::0::1::::<>Node2D<><>0<>0<><>::
-explosió.tscn::PackedScene::2725706065839524754::1747120085::0::1::::<><><>0<>0<><>::uid://bgamaodoq530l::::res://explosió.gd<>uid://cy3lohef68wl6::::res://explosion-42132.mp3
-node_2d.tscn::PackedScene::3744790467636411107::1747121783::0::1::::<><><>0<>0<><>::uid://din73nvv5rlap::::res://assets-removebg.png<>uid://dt6liyufcr7d6::::res://codipersonatje1.gd<>uid://c3xf30s85ntvb::::res://random-shooter/imatges/alienBlue.png<>uid://ni5h5efe50kk::::res://random-shooter/imatges/alienBlue_jump.png<>uid://b4e23rwm3357l::::res://random-shooter/imatges/alienBlue_jump2.png<>uid://clfa6fcs5k4f4::::res://alienYellow.png<>uid://bxbywwb71u46a::::res://alienYellow_walk1.png
+explosió.tscn::PackedScene/PackedScene::2725706065839524754::1747120085::0::1::::<><><>0<>0<><>::uid://bgamaodoq530l::::res://explosió.gd<>uid://cy3lohef68wl6::::res://explosion-42132.mp3
+node_2d.tscn::PackedScene::3744790467636411107::1747122799::0::1::::<><><>0<>0<><>::uid://din73nvv5rlap::::res://assets-removebg.png<>uid://dt6liyufcr7d6::::res://codipersonatje1.gd<>uid://c3xf30s85ntvb::::res://random-shooter/imatges/alienBlue.png<>uid://ni5h5efe50kk::::res://random-shooter/imatges/alienBlue_jump.png<>uid://b4e23rwm3357l::::res://random-shooter/imatges/alienBlue_jump2.png<>uid://clfa6fcs5k4f4::::res://alienYellow.png<>uid://6f4ech471ggs::::res://alienYellow_jump.png<>uid://bxbywwb71u46a::::res://alienYellow_walk1.png<>uid://7n5jua7rs6kt::::res://alienYellow_walk21.png
 README.md::TextFile/TextFile::-1::1745578714::0::1::::<><><>0<>0<><>::
 ::res://random-shooter/imatges/::1747048813
 alienBlue.png::CompressedTexture2D/CompressedTexture2D::6785964607217878911::1747048700::1747048475::1::::<><><>0<>0<>e38f82b13fb5eabe67bd6ad4696b7504<>res://.godot/imported/alienBlue.png-6af05b7d0e60101d511e9416b1d9fa8a.ctex::

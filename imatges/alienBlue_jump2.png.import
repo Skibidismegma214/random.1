@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bc04b8sa1gpnb"
-path="res://.godot/imported/assets-removebg.png-8b9af40ca1e02bfc0fff5392e5f4c18a.ctex"
+uid="uid://b4e23rwm3357l"
+path="res://.godot/imported/alienBlue_jump2.png-255da1dd07392e115eaad82048c51314.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://random-shooter/assets-removebg.png"
-dest_files=["res://.godot/imported/assets-removebg.png-8b9af40ca1e02bfc0fff5392e5f4c18a.ctex"]
+source_file="res://random-shooter/imatges/alienBlue_jump2.png"
+dest_files=["res://.godot/imported/alienBlue_jump2.png-255da1dd07392e115eaad82048c51314.ctex"]
 
 [params]
 

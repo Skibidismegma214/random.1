@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://cc1vav1c1j44w"]
+[gd_scene load_steps=17 format=3 uid="uid://cc1vav1c1j44w"]
 
 [ext_resource type="Texture2D" uid="uid://d6hol072oofl" path="res://sheet.png" id="1_wtcfe"]
 [ext_resource type="Texture2D" uid="uid://cte6b5tqlk3gx" path="res://random-shooter/imatges/Captura (38).png" id="2_0e48y"]
@@ -6,6 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://ni5h5efe50kk" path="res://random-shooter/imatges/alienBlue_jump.png" id="4_0hol4"]
 [ext_resource type="Texture2D" uid="uid://c3xf30s85ntvb" path="res://random-shooter/imatges/alienBlue.png" id="4_q6r6c"]
 [ext_resource type="Texture2D" uid="uid://b4e23rwm3357l" path="res://random-shooter/imatges/alienBlue_jump2.png" id="6_kdubu"]
+[ext_resource type="Texture2D" uid="uid://clfa6fcs5k4f4" path="res://alienYellow.png" id="7_rj586"]
+[ext_resource type="Texture2D" uid="uid://bxbywwb71u46a" path="res://alienYellow_walk1.png" id="8_4d7sh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0e48y"]
 texture = ExtResource("1_wtcfe")
@@ -1878,11 +1880,40 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kdubu"]
-radius = 53.0
-height = 142.0
+radius = 34.0
+height = 90.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0hol4"]
-size = Vector2(854, 45.25)
+size = Vector2(854, 41)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kdubu"]
+size = Vector2(324, 110)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d21ai"]
+size = Vector2(425.384, 23.6866)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ir8iy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rj586")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4d7sh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4d7sh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4d7sh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4d7sh")
+}],
+"loop": true,
+"name": &"CorrerGroc",
+"speed": 5.0
+}]
 
 [node name="Node2D" type="Node2D"]
 metadata/_edit_horizontal_guides_ = [-41.0]
@@ -1902,17 +1933,34 @@ texture = ExtResource("2_0e48y")
 script = ExtResource("3_epypp")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
-position = Vector2(660, 303.5)
-scale = Vector2(1.54545, 1.51087)
+position = Vector2(650, 474)
+scale = Vector2(1.11363, 0.902174)
 sprite_frames = SubResource("SpriteFrames_q6r6c")
 animation = &"AnimacioEsquerra"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(659, 305)
+position = Vector2(650, 467)
 shape = SubResource("CapsuleShape2D_kdubu")
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="StaticBody2D" type="StaticBody2D" parent="CharacterBody2D"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(723, 532.375)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/StaticBody2D"]
+position = Vector2(723, 534.5)
 shape = SubResource("RectangleShape2D_0hol4")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="CharacterBody2D/StaticBody2D"]
+position = Vector2(136, 568)
+shape = SubResource("RectangleShape2D_kdubu")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="CharacterBody2D/StaticBody2D"]
+position = Vector2(169, 507.347)
+scale = Vector2(0.780471, 0.73064)
+shape = SubResource("RectangleShape2D_d21ai")
+
+[node name="CharacterBody2D2" type="CharacterBody2D" parent="CharacterBody2D"]
+position = Vector2(473, 474)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D/CharacterBody2D2"]
+position = Vector2(-7, -1)
+sprite_frames = SubResource("SpriteFrames_ir8iy")
+animation = &"CorrerGroc"
